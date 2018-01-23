@@ -1,0 +1,51 @@
+/* has to have 3 lines and makre sure you have the semi colon*/
+/* an id needs to have # and a class is a . */
+/* you can seperate multiple things with a comma */
+/* the more specific rule will always win. ie h1.general wins over h1*/
+/* the last one wins ie h1 blue then h1 purple, purple will win */
+h1, h3 {
+  font-family: helvetica;
+}
+
+body{
+  font-family: arial;
+}
+div.header{
+    background-color: #9e9e9e7d;
+}
+.general {
+  color: #ff8f00;
+  font-size: 40px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+#header {
+  color: #ff8f00;
+  font-size: 40px;
+  text-align: center;
+  border-style: groove;
+  border-radius: 5px
+}
+#thanks {
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: #ff00a8 wavy underline;
+}
+#sign {
+  width: 150px;
+}
+
+#taco{
+  width:1000px
+}
+table{
+  border-style: solid;
+}
+
+td{
+  border-left: dotted;
+  border-top: dotted;
+  border-bottom: dotted;
+  border-right: dotted;
+}

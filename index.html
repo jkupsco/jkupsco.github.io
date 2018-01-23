@@ -3,13 +3,22 @@
   <head>
     <!--The head only adds data excpet for the title  -->
     <title>Jeff's Awesome Website</title>
+    <!-- here is where you link in your css file -->
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Hi! Welcome to Jeff's Shoe Emporium!!<p><img src="sign.png"></p></h1>
+   <div class="header">
+    <h1 id=header>Welcome to Jeff's Shoe Emporium!</h1>
+    <!-- cannot have two elements witht he same id=.
+    However you can have the same class=  -->
+     <h1 id=thanks>Thank you for supporting your local business</h1>
+   </div>
+     <hr>
+    <p><img id=sign src="sign.png"></p>
     <hr>
     <p>Isn't it <strong>awesome</strong>?</p>
     <p><a href="tacos.html">TACOS TACOS TACOS!!!!!</a><p>
-    <!-- Use command slash to set comments -->
+    <!-- Use contrl slash to set comments -->
     <hr>
     <p>We have these <strong>brands</strong></p>
     <p>Click a link below to shop</p>
