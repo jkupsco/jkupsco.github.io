@@ -17,7 +17,6 @@ body{
   padding-left: 10PX;
 }
 h3{
-
   color:white;
 }
 .page-header {
@@ -35,4 +34,14 @@ h3{
 div.c-wrapper{
     margin: auto;
     margin-bottom: 5vh;
+}
+.about{
+  font-size: 20px;
+}
+.jabout{
+  margin-top: 5vh;
+}
+#support{
+  font-weight: bold;
+  font-size: 25px;
 }
