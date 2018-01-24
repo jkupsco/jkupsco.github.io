@@ -7,6 +7,10 @@
 body{
   font-family: 'Heebo', sans-serif;
   background-image: url(background1.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 #yelp{
@@ -29,6 +33,7 @@ h3{
 .loc{
     padding-right:0;
     padding-left:0;
+    padding-bottom: 5vh
 }
 div.c-wrapper{
     margin: auto;
