@@ -22,6 +22,7 @@ h3{
 .page-header {
     background-color: rgba(199, 199, 199, .6);
     margin-bottom: 5vh;
+    margin-top: 5vh;
     text-align: center;
     color: #284857;
     font-size: 1.75em;
@@ -39,7 +40,7 @@ div.c-wrapper{
   font-size: 18px;
 }
 .jumbotron{
-  margin-top: 5vh;
+  margin: 5vh;
 }
 #support{
   font-weight: bold;
